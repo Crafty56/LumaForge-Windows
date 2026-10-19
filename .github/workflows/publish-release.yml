@@ -1,0 +1,27 @@
+name: Publish counted installer Release
+on:
+  push:
+    branches: [main]
+    paths: ['release.json', '*.apk', '*.exe', 'publish-release.mjs', '.github/workflows/publish-release.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: installer-release
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Verify bytes and publish without replacing counted assets
+        run: node publish-release.mjs
+        env:
+          GH_TOKEN: ${{ github.token }}
