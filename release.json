@@ -1,8 +1,8 @@
 {
   "repository": "Crafty56/LumaForge-Windows",
   "platform": "windows",
-  "version": "0.10.0-preview.1",
-  "tag": "v0.10.0-preview.1",
-  "file": "LumaForge-Hub-Setup-0.10.0-preview.1.exe",
-  "sha256": "a0141c7e5a99ce458bce29a45f3801093c0fad9ee7175c088d9b4eee695f3140"
+  "version": "0.11.0-preview.1",
+  "tag": "v0.11.0-preview.1",
+  "file": "LumaForge-Hub-Setup-0.11.0-preview.1.exe",
+  "sha256": "294f4fc6b35e51a30d38f9f3a9cfcc1b88293dd7b938c471d60602b996a00ed8"
 }
