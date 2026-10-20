@@ -2,9 +2,9 @@
 
 Published by **CADET**. Community: https://discord.gg/RK5dyBArdg
 
-[Download the counted Release installer](https://github.com/Crafty56/LumaForge-Windows/releases/download/v0.10.0-preview.1/LumaForge-Hub-Setup-0.10.0-preview.1.exe)
+[Download the counted Release installer](https://github.com/Crafty56/LumaForge-Windows/releases/download/v0.11.0-preview.1/LumaForge-Hub-Setup-0.11.0-preview.1.exe)
 
-[Direct file fallback](LumaForge-Hub-Setup-0.10.0-preview.1.exe) · [Release history](https://github.com/Crafty56/LumaForge-Windows/releases)
+[Direct file fallback](LumaForge-Hub-Setup-0.11.0-preview.1.exe) · [Release history](https://github.com/Crafty56/LumaForge-Windows/releases)
 
 Windows 10/11 x64 and Microsoft WebView2. Unsigned preview installer.
 
